@@ -15,11 +15,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@hapi/boom": "9.x.x",
+    "@hapi/boom": "^9.1.4",
     "@hapipal/haute-couture": "4.x.x",
     "@hapipal/schmervice": "^3.0.0",
     "@hapipal/schwifty": "6.x.x",
     "amqplib": "^0.10.3",
+    "bcrypt": "^5.1.1",
     "exiting": "6.0.1",
     "joi": "17.x.x",
     "mysql": "^2.18.1",
@@ -45,7 +46,7 @@
     "@hapipal/hpal-debug": "2.x.x",
     "@hapipal/toys": "3.x.x",
     "babel-eslint": "10.x.x",
-    "dotenv": "8.x.x",
+    "dotenv": "^8.6.0",
     "eslint": "7.x.x",
     "hapi-swagger": "14.x.x",
     "knex": "^0.21.16"
