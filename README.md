@@ -4,6 +4,14 @@ Ce projet permet de gérer une bibliothèe de films.
 
 ## Sommaire
 
+ - [Récupération du projet](#récupération-du-projet)
+ - [Démarrage du projet](#démarrage-du-projet)
+   - [Lancement du container Docker](#lancement-du-container-docker)
+   - [Lancement du server](#lancement-du-server)
+ - [Utilisation du projet](#utilisation-du-projet)
+ - [Fonctionnalités disponibles](#fonctionnalités-disponibles)
+   - [Partie utilisateurs](#partie-utilisateurs)
+   -  [Partie films](#partie-films)
 
 ## Récupération du projet
 
@@ -41,11 +49,11 @@ Afin de démarrer le serveur, lancer la commande suivant dans votre terminal web
 
 Rendez-vous a la page localhost:3000/documentation de votre navigateur favoris. Vous aurez accès au projet
 
-## Fonctionnalités disponible
+## Fonctionnalités disponibles
 
 Ce projet permet:
 
-### Partie utilisateur:
+### Partie utilisateurs
 
 Du côté des utilisateurs, on peut:
 
