@@ -3,6 +3,7 @@
 const Glue = require('@hapi/glue');
 const Exiting = require('exiting');
 const Manifest = require('./manifest');
+const UserCreatedQueueConsumer = require('../lib/userCreatedQueueConsumer');
 
 exports.deployment = async ({ start } = {}) => {
 
@@ -12,6 +13,10 @@ exports.deployment = async ({ start } = {}) => {
     if (start) {
         await Exiting.createManager(server).start();
         server.log(['start'], `Server started at ${server.info.uri}`);
+
+        const userCreatedQueueConsumer = new UserCreatedQueueConsumer();
+        await userCreatedQueueConsumer.consumeUserCreatedQueue();
+
         return server;
     }
 
