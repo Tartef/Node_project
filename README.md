@@ -66,4 +66,5 @@ Les utilisateurs ont un rôle, par défaut "user".
 
 ### Partie films
 
-TODO
+ - Créer un film
+ - Voir la liste des films
