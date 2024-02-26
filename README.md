@@ -34,9 +34,14 @@ Une fois la configuration terminée, pour lancer le projet, on passera par 2 ét
 
 ### Lancement du container Docker
 
-Pour créer le container MySQL docker, entrer la commande suivante dans un terminale:
+Pour créer le container MySQL docker, entrer la commande suivante dans un terminal:
 
 `docker run --name hapi-mysql -e MYSQL_ROOT_PASSWORD=hapi -e MYSQL_DATABASE=user -p 3307:3306 -d mysql:8`
+
+Il faut ensuite créer le container RabbitMQ permettant de gérer le mailer via la commande:
+
+`docker run -d --name rabbitmq -p 5672:5672  -p 15672:15672 rabbitmq:management`
+
 
 ### Lancement du server
 
