@@ -26,6 +26,8 @@ Dans le dossier Node_project, effectuer l'installation des dépendances:
 Une fois les dépendances résolues, ajouter dans le dossier /server un fichier .env suivant le format du fichier .env-keep.
 
 Les valeurs du .env sont celle de bases pour la configuration de la base de données (cf: TP Objection et Schwifty).
+Concernant les valeurs du mailer, il faut se créer un compte sur le site https://ethereal.email/ et récupérer les valeurs pour le host, le user et le password. Le port est le 587.
+
 
 
 ## Démarrage du projet
