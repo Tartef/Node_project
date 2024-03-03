@@ -11,7 +11,7 @@ Ce projet permet de gérer une bibliothèque d'utilisateurs et de films.
  - [Utilisation du projet](#utilisation-du-projet)
  - [Fonctionnalités disponibles](#fonctionnalités-disponibles)
    - [Partie utilisateurs](#partie-utilisateurs)
-   -  [Partie films](#partie-films)
+   - [Partie films](#partie-films)
 
 ## Récupération du projet
 
@@ -34,7 +34,7 @@ Concernant les valeurs du mailer, il faut se créer un compte sur le site https:
 
 Une fois la configuration terminée, pour lancer le projet, on passera par 2 étapes:
 
-### Lancement du container Docker
+### Lancement des containers Docker
 
 Pour créer le container MySQL docker, entrer la commande suivante dans un terminal:
 
@@ -47,14 +47,15 @@ Il faut ensuite créer le container RabbitMQ permettant de gérer le mailer via 
 
 ### Lancement du server
 
-Afin de démarrer le serveur, lancer la commande suivant dans votre terminal webstorm:
+Afin de démarrer le serveur, lancer la commande suivant dans votre terminal webstorm, situé dans le dossier racine du projet:
 
 `npm start`
 
 
 ## Utilisation du projet
 
-Rendez-vous a la page localhost:3000/documentation de votre navigateur favoris. Vous aurez accès au projet
+Rendez-vous a la page [localhost:3000/documentation](http://localhost:3000/documentation) de votre navigateur favoris. Vous aurez accès au projet
+Il est également possible de se rendre à l'adresse [localhost:5672](http://localhost:5672) afin d'avoir la gestion de RabbitMQ, il faudra alors entrer en nom d'utilisateur et en mot de passe 'guest'.
 
 ## Fonctionnalités disponibles
 
