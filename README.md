@@ -66,6 +66,7 @@ Du côté des utilisateurs, on peut:
  - Modifier des utilisateurs
  - Supprimer des utilisateurs
  - Voir la liste des utilisateurs
+ - Ajouter un film en favoris
 
 Les utilisateurs ont un rôle, par défaut "user".
 
@@ -73,3 +74,6 @@ Les utilisateurs ont un rôle, par défaut "user".
 
  - Créer un film
  - Voir la liste des films
+ - Modifier un film
+ - Supprimer un film
+ - Consulter la liste des utilisateurs ayant ajouté un film en favori
