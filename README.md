@@ -1,6 +1,6 @@
 # Présentation générale
 
-Ce projet permet de gérer une bibliothèe de films.
+Ce projet permet de gérer une bibliothèque d'utilisateurs et de films.
 
 ## Sommaire
 
